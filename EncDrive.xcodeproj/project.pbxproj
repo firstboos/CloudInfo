@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B396EB71A3EA5CC00504C47 /* CloudDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396EB61A3EA5CC00504C47 /* CloudDetailTableViewController.m */; };
+		9B396EF51A40266700504C47 /* CloudNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396EF41A40266700504C47 /* CloudNewTableViewController.m */; };
+		9B396EF81A41629400504C47 /* CloudPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396EF71A41629400504C47 /* CloudPickerViewController.m */; };
+		9B856C1F1A3A8553004B1805 /* CloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B856C1E1A3A8553004B1805 /* CloudTableViewController.m */; };
+		9B856C231A3A85F3004B1805 /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B856C221A3A85F3004B1805 /* Cloud.m */; };
+		9B856C261A3AD645004B1805 /* CloudInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B856C251A3AD645004B1805 /* CloudInfoViewController.m */; };
 		9BCCA8F01A397DD700113617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCA8EF1A397DD700113617 /* main.m */; };
 		9BCCA8F31A397DD700113617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCA8F21A397DD700113617 /* AppDelegate.m */; };
-		9BCCA8F61A397DD700113617 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCA8F51A397DD700113617 /* FirstViewController.m */; };
-		9BCCA8F91A397DD700113617 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCCA8F81A397DD700113617 /* SecondViewController.m */; };
 		9BCCA8FC1A397DD700113617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCA8FA1A397DD700113617 /* Main.storyboard */; };
 		9BCCA8FE1A397DD700113617 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCA8FD1A397DD700113617 /* Images.xcassets */; };
 		9BCCA9011A397DD700113617 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BCCA8FF1A397DD700113617 /* LaunchScreen.xib */; };
@@ -28,15 +32,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B396EB51A3EA5CC00504C47 /* CloudDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudDetailTableViewController.h; sourceTree = "<group>"; };
+		9B396EB61A3EA5CC00504C47 /* CloudDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudDetailTableViewController.m; sourceTree = "<group>"; };
+		9B396EF31A40266700504C47 /* CloudNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudNewTableViewController.h; sourceTree = "<group>"; };
+		9B396EF41A40266700504C47 /* CloudNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudNewTableViewController.m; sourceTree = "<group>"; };
+		9B396EF61A41629400504C47 /* CloudPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPickerViewController.h; sourceTree = "<group>"; };
+		9B396EF71A41629400504C47 /* CloudPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudPickerViewController.m; sourceTree = "<group>"; };
+		9B856C1D1A3A8553004B1805 /* CloudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTableViewController.h; sourceTree = "<group>"; };
+		9B856C1E1A3A8553004B1805 /* CloudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTableViewController.m; sourceTree = "<group>"; };
+		9B856C211A3A85F3004B1805 /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
+		9B856C221A3A85F3004B1805 /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		9B856C241A3AD645004B1805 /* CloudInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudInfoViewController.h; sourceTree = "<group>"; };
+		9B856C251A3AD645004B1805 /* CloudInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudInfoViewController.m; sourceTree = "<group>"; };
 		9BCCA8EA1A397DD700113617 /* EncDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCCA8EE1A397DD700113617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BCCA8EF1A397DD700113617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9BCCA8F11A397DD700113617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BCCA8F21A397DD700113617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BCCA8F41A397DD700113617 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9BCCA8F51A397DD700113617 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9BCCA8F71A397DD700113617 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9BCCA8F81A397DD700113617 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9BCCA8FB1A397DD700113617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BCCA8FD1A397DD700113617 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9BCCA9001A397DD700113617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -63,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B856C201A3A858E004B1805 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9B856C211A3A85F3004B1805 /* Cloud.h */,
+				9B856C221A3A85F3004B1805 /* Cloud.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		9BCCA8E11A397DD700113617 = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +105,20 @@
 		9BCCA8EC1A397DD700113617 /* EncDrive */ = {
 			isa = PBXGroup;
 			children = (
+				9B856C201A3A858E004B1805 /* model */,
+				9B856C1D1A3A8553004B1805 /* CloudTableViewController.h */,
+				9B856C1E1A3A8553004B1805 /* CloudTableViewController.m */,
 				9BCCA8F11A397DD700113617 /* AppDelegate.h */,
 				9BCCA8F21A397DD700113617 /* AppDelegate.m */,
-				9BCCA8F41A397DD700113617 /* FirstViewController.h */,
-				9BCCA8F51A397DD700113617 /* FirstViewController.m */,
-				9BCCA8F71A397DD700113617 /* SecondViewController.h */,
-				9BCCA8F81A397DD700113617 /* SecondViewController.m */,
 				9BCCA8FA1A397DD700113617 /* Main.storyboard */,
+				9B396EF61A41629400504C47 /* CloudPickerViewController.h */,
+				9B396EF71A41629400504C47 /* CloudPickerViewController.m */,
+				9B396EF31A40266700504C47 /* CloudNewTableViewController.h */,
+				9B396EF41A40266700504C47 /* CloudNewTableViewController.m */,
+				9B396EB51A3EA5CC00504C47 /* CloudDetailTableViewController.h */,
+				9B396EB61A3EA5CC00504C47 /* CloudDetailTableViewController.m */,
+				9B856C241A3AD645004B1805 /* CloudInfoViewController.h */,
+				9B856C251A3AD645004B1805 /* CloudInfoViewController.m */,
 				9BCCA8FD1A397DD700113617 /* Images.xcassets */,
 				9BCCA8FF1A397DD700113617 /* LaunchScreen.xib */,
 				9BCCA8ED1A397DD700113617 /* Supporting Files */,
@@ -224,9 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCCA8F91A397DD700113617 /* SecondViewController.m in Sources */,
+				9B396EB71A3EA5CC00504C47 /* CloudDetailTableViewController.m in Sources */,
+				9B856C1F1A3A8553004B1805 /* CloudTableViewController.m in Sources */,
+				9B396EF81A41629400504C47 /* CloudPickerViewController.m in Sources */,
+				9B396EF51A40266700504C47 /* CloudNewTableViewController.m in Sources */,
 				9BCCA8F31A397DD700113617 /* AppDelegate.m in Sources */,
-				9BCCA8F61A397DD700113617 /* FirstViewController.m in Sources */,
+				9B856C231A3A85F3004B1805 /* Cloud.m in Sources */,
+				9B856C261A3AD645004B1805 /* CloudInfoViewController.m in Sources */,
 				9BCCA8F01A397DD700113617 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +450,7 @@
 				9BCCA9121A397DD700113617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BCCA9131A397DD700113617 /* Build configuration list for PBXNativeTarget "EncDriveTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +459,7 @@
 				9BCCA9151A397DD700113617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
