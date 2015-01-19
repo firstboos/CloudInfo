@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B396EB71A3EA5CC00504C47 /* CloudDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396EB61A3EA5CC00504C47 /* CloudDetailTableViewController.m */; };
 		9B396EF51A40266700504C47 /* CloudNewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396EF41A40266700504C47 /* CloudNewTableViewController.m */; };
 		9B396EF81A41629400504C47 /* CloudPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B396EF71A41629400504C47 /* CloudPickerViewController.m */; };
 		9B856C1F1A3A8553004B1805 /* CloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B856C1E1A3A8553004B1805 /* CloudTableViewController.m */; };
@@ -32,8 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B396EB51A3EA5CC00504C47 /* CloudDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudDetailTableViewController.h; sourceTree = "<group>"; };
-		9B396EB61A3EA5CC00504C47 /* CloudDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudDetailTableViewController.m; sourceTree = "<group>"; };
 		9B396EF31A40266700504C47 /* CloudNewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudNewTableViewController.h; sourceTree = "<group>"; };
 		9B396EF41A40266700504C47 /* CloudNewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudNewTableViewController.m; sourceTree = "<group>"; };
 		9B396EF61A41629400504C47 /* CloudPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudPickerViewController.h; sourceTree = "<group>"; };
@@ -115,8 +112,6 @@
 				9B396EF71A41629400504C47 /* CloudPickerViewController.m */,
 				9B396EF31A40266700504C47 /* CloudNewTableViewController.h */,
 				9B396EF41A40266700504C47 /* CloudNewTableViewController.m */,
-				9B396EB51A3EA5CC00504C47 /* CloudDetailTableViewController.h */,
-				9B396EB61A3EA5CC00504C47 /* CloudDetailTableViewController.m */,
 				9B856C241A3AD645004B1805 /* CloudInfoViewController.h */,
 				9B856C251A3AD645004B1805 /* CloudInfoViewController.m */,
 				9BCCA8FD1A397DD700113617 /* Images.xcassets */,
@@ -252,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B396EB71A3EA5CC00504C47 /* CloudDetailTableViewController.m in Sources */,
 				9B856C1F1A3A8553004B1805 /* CloudTableViewController.m in Sources */,
 				9B396EF81A41629400504C47 /* CloudPickerViewController.m in Sources */,
 				9B396EF51A40266700504C47 /* CloudNewTableViewController.m in Sources */,
